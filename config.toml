@@ -2,3 +2,33 @@ baseURL = 'JoonSumisu/JoonSumisu.github.io'
 languageCode = 'en-us'
 title = '记录站'
 theme = 'maupassant'
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "project"
+    name = "理型"
+    url = "/project/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "post"
+    name = "杂谈"
+    url = "/post/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+[params]
+ localSearch = true
