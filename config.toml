@@ -33,6 +33,8 @@ summaryLength = 140
 
   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
   toc = true  # 是否开启目录
+  
+  localSearch = true #开启搜索
 
 
 [markup]
@@ -62,5 +64,5 @@ summaryLength = 140
     url = "/about/"
     weight = 4
 
-[params]
- localSearch = true
+
+
