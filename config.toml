@@ -53,9 +53,9 @@ summaryLength = 140
     weight = 2
 
   [[menu.main]]
-    identifier = "post"
-    name = "杂谈"
-    url = "/post/"
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
     weight = 3
 
   [[menu.main]]
